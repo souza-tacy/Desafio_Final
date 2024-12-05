@@ -1,11 +1,10 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Inicio from '../../pages/inicio/inicio';
 import LivrosDoados from '../../pages/livrosDoados/livrosDoados';
 import QueroDoar from '../../pages/queroDoar/queroDoar';
 import logo from '../../assets/logo.png';
 import lupa from '../../assets/lupa.png';
 import s from './header.module.scss';
-// Ao importar o Sass como um módulo (.module.scss), conseguimos usar estilos isolados dentro do componente, ou seja, eles só serão aplicados ao componente onde estão importados. Isso ajuda a evitar estilos acidentais que podem "vazar" para outros componentes.
 
 export default function Header() {
   return (
